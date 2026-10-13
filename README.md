@@ -11,9 +11,9 @@
 ## Contents
 
 - [Claude Skills (109)](#claude-skills-109)
-- [MCP Servers (22)](#mcp-servers-22)
+- [MCP Servers (23)](#mcp-servers-23)
 - [Copilot Agents (30)](#copilot-agents-30)
-- [AI Workflows (5)](#ai-workflows-5)
+- [AI Workflows (6)](#ai-workflows-6)
 - [Cursor Rules (2)](#cursor-rules-2)
 - [Why this list exists](#why-this-list-exists)
 
@@ -131,7 +131,7 @@
 - [Generative Media Skills](https://aiassetsdirectory.com/claude-skills/generative-media-skills) - A Core/Library collection of 41 SKILL.md recipes (cinematography, branding, product ads, UGC video) that drive 100+ image/video/audio models through the MuAPI backend, for Claude Code, Cursor, Gemini CLI and OpenCode. (`MIT`, [source](https://github.com/SamurAIGPT/Generative-Media-Skills))
 - [Magic Hour Image to Video](https://aiassetsdirectory.com/claude-skills/magic-hour-image-to-video) - Guides an agent through turning a photo into a short Magic Hour video, fixing the still frame first so identity, product and text stay intact before it spends credits on motion. (`MIT`, [source](https://github.com/magichourhq/skills/tree/main/skills/magic-hour-image-to-video))
 
-## MCP Servers (22)
+## MCP Servers (23)
 
 - [Awesome MCP Servers](https://aiassetsdirectory.com/mcp-servers/awesome-mcp-servers) - The largest community catalog of MCP servers: thousands of entries across dozens of categories (databases, browser automation, cloud, communication and more), tagged by language and scope. (`MIT`, verified, [source](https://github.com/punkpeye/awesome-mcp-servers))
 - [Context7](https://aiassetsdirectory.com/mcp-servers/context7-mcp) - Pulls updated, version-specific documentation and code examples straight from the source into your prompt, so agents stop citing outdated APIs or hallucinating ones that don't exist. (`MIT`, verified, [source](https://github.com/upstash/context7))
@@ -155,6 +155,7 @@
 - [Memory MCP Server](https://aiassetsdirectory.com/mcp-servers/mcp-memory) - The official reference MCP server for persistent memory, storing a local knowledge graph of entities, relations and observations so an agent remembers facts across chats. (`MIT`, verified, [source](https://github.com/modelcontextprotocol/servers/tree/main/src/memory))
 - [Sequential Thinking MCP Server](https://aiassetsdirectory.com/mcp-servers/mcp-sequential-thinking) - The official reference MCP server for structured, step-by-step reasoning, letting an agent break a problem into revisable, branching thoughts instead of a one-shot answer. (`MIT`, verified, [source](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking))
 - [Time MCP Server](https://aiassetsdirectory.com/mcp-servers/mcp-time) - Official reference MCP server for time and IANA timezone conversion, with automatic system-timezone detection. (`MIT`, verified, [source](https://github.com/modelcontextprotocol/servers/tree/main/src/time))
+- [Kleap MCP & CLI](https://aiassetsdirectory.com/mcp-servers/kleap-cli) - Lets AI agents edit and publish websites on Kleap using their own generated code or Kleap's AI, then check deployment status before sharing the URL. (`MIT`, [source](https://github.com/kleaphq/cli))
 
 ## Copilot Agents (30)
 
@@ -189,13 +190,14 @@
 - [Thinking Beast Mode](https://aiassetsdirectory.com/copilot-agents/thinking-beast-mode) - A long, autonomous "keep going until it's solved" system prompt that pushes an agent through deep sequential thinking, recursive web research and rigorous self-testing before it stops working on a task. (`MIT`, verified, [source](https://github.com/github/awesome-copilot/blob/main/agents/Thinking-Beast-Mode.agent.md))
 - [Universal Janitor](https://aiassetsdirectory.com/copilot-agents/universal-janitor) - Cleans up any codebase by deleting unused code, flattening unnecessary complexity and auditing dependencies, on the premise that removing code is the most effective refactor available. (`MIT`, verified, [source](https://github.com/github/awesome-copilot/blob/main/agents/janitor.agent.md))
 
-## AI Workflows (5)
+## AI Workflows (6)
 
 - [Dify](https://aiassetsdirectory.com/ai-workflows/dify) - Open-source LLM app development platform that combines a visual AI workflow canvas, RAG pipelines, agent tooling and model management in one workspace, for teams shipping production-ready AI apps. (`Apache-2.0 (modified)`, verified, [source](https://github.com/langgenius/dify))
 - [Langflow](https://aiassetsdirectory.com/ai-workflows/langflow) - Visual Python platform for building and deploying AI agents and workflows, with full component source access, multi-agent orchestration and one-click export as an API or MCP server. (`MIT`, verified, [source](https://github.com/langflow-ai/langflow))
 - [CrewAI](https://aiassetsdirectory.com/ai-workflows/crewai) - Code-first Python framework for orchestrating autonomous, role-based AI agents (Crews) alongside precise event-driven workflows (Flows), built to run standalone in production. (`MIT`, verified, [source](https://github.com/crewAIInc/crewAI))
 - [LangGraph](https://aiassetsdirectory.com/ai-workflows/langgraph) - Low-level Python framework from LangChain for building stateful, long-running AI agents with durable execution, human-in-the-loop control and persistent memory. (`MIT`, verified, [source](https://github.com/langchain-ai/langgraph))
 - [Activepieces](https://aiassetsdirectory.com/ai-workflows/activepieces) - Open source alternative to Zapier: a no-code workflow automation platform with 280+ TypeScript integrations, where every piece is also exposed as an MCP server for Claude Desktop, Cursor or Windsurf. (`MIT`, verified, [source](https://github.com/activepieces/activepieces))
+- [Orkas](https://aiassetsdirectory.com/ai-workflows/orkas) - Coordinates specialist AI agents from a desktop chat, using your own model credentials and installed coding CLIs to carry out multi-step tasks. (`MIT`, [source](https://github.com/Orkas-AI/Orkas))
 
 ## Cursor Rules (2)
 
